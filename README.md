@@ -2,7 +2,8 @@ Smart-Parking-System
 
 
 Smart-Parking-System
-Objective: To develop a user-friendly mobile application that helps users find and reserve parking spots in real-time, reducing congestion, saving time, and enhancing the overall urban mobility experience.
+Objective: To develop a user-friendly mobile application that helps users find and reserve parking spots in real-time, reducing congestion, saving time, and 
+enhancing the overall urban mobility experience.
 
 Key Features:
 
