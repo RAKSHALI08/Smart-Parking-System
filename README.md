@@ -1,7 +1,6 @@
 # Smart-Parking-System
 
 
-
 Smart-Parking-System
 Objective: To develop a user-friendly mobile application that helps users find and reserve parking spots in real-time, reducing congestion, saving time, and enhancing the overall urban mobility experience.
 Key Features:
@@ -20,6 +19,7 @@ Contactless digital payment through QR code.
 5.	Admin Dashboard:
 Interface for parking lot owners to manage slot availability, pricing, and view usage reports.
 6.	User Management:
+
 Profile creation, login/logout, and booking history.
 Notifications for booking confirmation, expiration, and payment success.
 Security Features:
