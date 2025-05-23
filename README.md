@@ -21,8 +21,12 @@ Interface for parking lot owners to manage slot availability, pricing, and view 
 6.	User Management:
 
 Profile creation, login/logout, and booking history.
+
 Notifications for booking confirmation, expiration, and payment success.
+
 Security Features:
+
 OTP-based authentication.
+
 Option to report unauthorized vehicles.
 
