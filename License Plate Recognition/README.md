@@ -1,4 +1,5 @@
 Module 1 License Plate Recognition (LPR)
+
 Project Overview
 This project implements a Smart Parking System integrated with a License Plate Recognition (LPR) module to automate vehicle detection, parking spot allocation, and entry/exit validation. The system uses IoT sensors (or camera-based detection) to monitor parking slot occupancy and LPR for automatic vehicle identification, aiming to reduce congestion, optimize parking space usage, and enhance user experience.
 
