@@ -1,37 +1,33 @@
-Objective: To develop a user-friendly mobile application that helps users find and reserve parking spots in real-time, reducing congestion, saving time, and enhancing the overall urban mobility experience.
+Module 1 License Plate Recognition (LPR)
+Project Overview
+This project implements a Smart Parking System integrated with a License Plate Recognition (LPR) module to automate vehicle detection, parking spot allocation, and entry/exit validation. The system uses IoT sensors (or camera-based detection) to monitor parking slot occupancy and LPR for automatic vehicle identification, aiming to reduce congestion, optimize parking space usage, and enhance user experience.
 
-Key Features:
+Features
+Real-time parking slot detection
+License Plate Recognition using OpenCV and OCR
+Web or mobile interface for:
+Live slot availability
+Booking/reservation
+Entry/exit logs
+Smart allocation of parking spots
+Digital payment (optional)
+Admin dashboard for usage analytics and management
+How It Works
+Vehicle Entry:
 
-Real-Time Slot Availability:
-Shows available parking spots in nearby locations.
+Camera captures vehicle license plate.
+LPR module extracts plate number using OCR.
+If registered, gate opens automatically.
+Slot Detection:
 
-Uses sensors or admin inputs to update slot status in real-time.
+Sensors send parking slot status to the server.
+Available spots displayed on UI.
+Parking & Monitoring:
 
-Reservation & Booking:
-Users can pre-book a parking spot for a specific time duration.
+User parks vehicle; system logs time and slot.
+Admin can monitor occupancy in real-time.
+Vehicle Exit:
 
-Option for both hourly and daily reservations.
-
-Navigation Support:
-Integrated with Google Maps or similar APIs to guide users to the parking spot.
-
-Optimized routing based on traffic conditions.
-
-Payment Integration:
-Multiple payment options (UPI, credit/debit cards, wallets).
-
-Contactless digital payment through QR code.
-
-Admin Dashboard:
-Interface for parking lot owners to manage slot availability, pricing, and view usage reports.
-
-User Management:
-Profile creation, login/logout, and booking history.
-
-Notifications for booking confirmation, expiration, and payment success.
-
-Security Features:
-
-OTP-based authentication.
-
-Option to report unauthorized vehicles.
+Plate is re-scanned at the gate.
+Charges (if any) are calculated.
+Gate opens upon verification.
